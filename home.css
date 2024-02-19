@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color:  orange;
+    height: 50px;
+}
+ul{
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+
+}
+li{
+    display: inline-block;
+    padding-left: 100px;
+    color: white;
+}
+li a{
+    color: orange;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 15px;
+    
+}
+li a:hover{
+    background-color: orange;
+    border: 1px solid white;
+    color: white;
+
+}
