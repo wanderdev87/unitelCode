@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto Slab;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('WCB.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 45%;
+}
+.butao{
+    width: 85%;
+    background-color: white;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 30px;
+}
+.container{
+    margin-left: 60%;
+    margin-top: 10%;
+    
+    width: 30%;
+    height: 400px;
+}
+
+.btn-entrar {
+    margin-top: 75px;
+    width: 80%;
+}
+
+.nome{
+    margin-bottom: 30px;
+    
+}
+
+.formulario{
+    margin-left: 15%;
+}
+
+
+input{
+    margin-left: -30px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    width: 88%;
+    font-size: 11pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input:hover{
+    background-color:whitesmoke;
+}
+input:focus-visible{
+    outline: 1px solid orange;
+}
+#conteudo{
+    padding-top: 75px;
+}
+.entrar-agora{
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 80%;   
+}
+.entrar-agora #btn-in{
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    color: orange;
+    
+}
