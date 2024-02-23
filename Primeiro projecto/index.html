@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warp Soluções Digitais</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    
+</head>
+<body>
+    <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu-logo">
+                    <a href="index.html"><img src="./img/Warp.png" alt=""></a>
+                </div>
+                <div class="nav">
+                    <ul class="nav_lista">
+                    <li class="nav-item"><a href="./IntroBoot/index.html" class="nav_link">ChocolifeTarefa</a></li>
+                    <li class="nav-item"><a href="#somos" onclick="scrollToSection('somos')" class="nav_link">Quem somos</a></li>
+                    <li class="nav-item"><a href="#cursos" onclick="scrollToSection('cursos')" class="nav_link">O que fazemos</a></li>
+                    <li class="nav-item"><a href="#newsletter" onclick="scrollToSection('newsletter')" class="nav_link">Fale connosco</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./img/menu_white_36dp.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#somos" onclick="scrollToSection('somos')" class="nav_link">Quem somos</a></li>
+                    <li class="nav-item"><a href="#cursos" onclick="scrollToSection('cursos')" class="nav_link">O que fazemos</a></li>
+                    <li class="nav-item"><a href="#newsletter" onclick="scrollToSection('newsletter')" class="nav_link">Fale connosco</a></li>
+                </ul>
+            </div>
+        </div> 
+    </header>
+        <h1 class="intro"> Nossa missão? <br/>Sua satisfação!!!</h1>
+
+       
+   
+    <section class="somos" id="somos">
+        <div class="somos_corpo">
+            <div class="somos_texto">
+                <p> Somos uma empresa do ramo informático focada em lhe oferecer os melhores serviços do ramo.
+                    Contamos com uma equipa de jovens dinamicos preparados para o servir da melhor maneira possivel.
+                </p>
+                <br>
+                <p>Já se foi o tempo de ter transtornos com os equipamentos outrora considerados <strong>"apenas para jovens"</strong>
+                    na Warp você terá a melhor assistência possivel e com profissionais que parecem ter nascido para bem lhe servir.
+                </p>
+            </div>
+            <div class="somos_imagem">
+                <img src="./img/somos.png" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo"> O que temos para lhe oferecer</h2>
+        <div class="curso_corpo">
+            <div class="curso">
+                <img src="./img/web.png" alt="" class="curso_img">
+                <h3 class="curso_titulo">Construção de Websites</h3>
+                <p class="curso_descricao">
+                    Construimos websites responsivos e a sua medida para que possa 
+                    ver seu negocio crescer permitindo
+                     que demais pessoas acessem e interajam com o seu negocio.
+                </p>
+            </div>
+            <div class="curso">
+                <img src="./img/appm.png" alt="" class="curso_img">
+                <h3 class="curso_titulo">Aplicativos móveis</h3>
+                <p class="curso_descricao">
+                    Contruimos aplicativos moveis para que o seu nocio esteja a um clique de quem realmente importa.
+                </p>
+            </div>
+            <div class="curso">
+                <img src="./img/rede.png" alt="" class="curso_img">
+                <h3 class="curso_titulo">Implementação de redes de computadores</h3>
+                <p class="curso_descricao">
+                    Implementamos e fazemos a manutenção da sua rede de computadores seja ela ponto a ponto ou multiponto
+                    tratamos da segurança dela para que não perca a sua produtividade.
+                </p>
+            </div>
+            <div class="curso">
+                <img src="./img/pcr.png" alt="" class="curso_img">
+                <h3 class="curso_titulo"> Reparação de equipamentos</h3>
+                <p class="curso_descricao">
+                    O seu negocio não precisa parar pela lentidão ou não funcionamento de um dispositivo, 
+                    tratamos do seu equipamento para que você trate do seu negocio.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+     <section class="test">
+        <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Prevenção?</h2>
+            <p class="vantagem_descricao"> Previnir é mais barato do que remediar
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Universo digital?</h2>
+            <p class="vantagem_descricao">Segundo Darwin: "Não sobrevive o mais forte, sobrevive o que melhor se adapta"
+            </p>
+        </div>
+        <div class="vantagem">
+            <h2 class="vantagem_titulo">Assistência 24h</h2>
+            <p class="vantagem_descricao">Nossa equipa estará disponivel para si 24 horas por dia.
+            </p>
+        </div>
+        
+    </section></section>
+
+
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter-container">
+            <div class="newsletter-info">
+                <h2 class="newsletter-info_titulo">Não tem saldo?</h2>
+                <p class="newsletter-info_descricao">Nós o contactaremos</p>
+            </div>
+            <form action="" class="newsletter-form">
+                <input type="text" placeholder="Digite seu email ou numero" class="newsletter-form_input">
+                <button type="submit" class="newsletter-form_submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section class="social-icons">
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook-square"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+            <li><a href="https://www.instagram.com/chefe_bird?igsh=azhnejYyb3kyM292"><i class="fab fa-instagram-square"></i> Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/wander-francisco-b90aa487/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+    </section>
+    
+
+    <footer class="footer">
+        <strong><p class="footer_copyright">"Quem vigia o vigilante?"</p></strong>
+        <a href="#">
+            <img src="img/Warp.png" alt="" class="footer_logo">
+        </a>
+    </footer>
+    <script>
+        function scrollToSection(sectionId) {
+            var targetSection = document.getElementById(sectionId);
+    
+            if (targetSection) {
+                // Role suavemente até a seção alvo
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
